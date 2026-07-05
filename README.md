@@ -25,9 +25,6 @@ graph TD
     B --> C[Module 3: Data Structures Series 031-040]
     C --> D[Module 4: File Handling Series 001-010]
     D --> E[Module 5: Mathematics for AI Series 001-010]
-    E --> F[Module 6: CyberSecurity OS Tooling Lab 001-010]
-    F --> G[Module 7: CyberSecurity Python Security Engineering Core 001-010]
-    G --> H[Module 8: White Hat Security Defensive Engineering 001-010]
 ```
 
 ---
@@ -48,17 +45,9 @@ Complete-Python-3-oops-also/
 ├── Python_DataStructures_Master/      # Module 3: Clickable Data Structures Notebooks (031-040)
 │   ├── 031_Arrays.ipynb
 │   └── ...
-├── Mathematics_for_AI/                # Module 5: Clickable Mathematics Notebooks (001-010)
-│   ├── 001_Number_Systems.ipynb
-│   └── ...
-├── CyberSecurity_OS/                  # Module 6: Clickable CyberSecurity Notebooks (001-010)
-│   ├── CYBERSECURITY_TOOLING_LAB/
-│   │   ├── 001_Port_Scanner.ipynb
-│   │   └── ...
-└── CyberSecurity_Python/              # Module 7: Clickable CyberSecurity Python Notebooks (001-010)
-    ├── SECURITY_ENGINEERING_CORE/
-    │   ├── 001_Secure_Coding_Principles.ipynb
-    │   └── ...
+└── Mathematics_for_AI/                # Module 5: Clickable Mathematics Notebooks (001-010)
+    ├── 001_Number_Systems.ipynb
+    └── ...
 ```
 
 ---
@@ -222,60 +211,7 @@ Complete-Python-3-oops-also/
 
 ---
 
----
-
-## 7. Module 6: CyberSecurity OS Tooling Lab (001 - 010)
-
-| Notebook | Topic | Difficulty | Prerequisite | Link |
-|:---|:---|:---:|:---|:---|
-| **001** | Port Scanner | ⭐⭐ | Socket API | [Open](CyberSecurity_OS/CYBERSECURITY_TOOLING_LAB/001_Port_Scanner.ipynb) |
-| **002** | Password Strength Analyzer | ⭐ | None | [Open](CyberSecurity_OS/CYBERSECURITY_TOOLING_LAB/002_Password_Strength_Analyzer.ipynb) |
-| **003** | Hash Generator & Verifier | ⭐ | None | [Open](CyberSecurity_OS/CYBERSECURITY_TOOLING_LAB/003_Hash_Generator_and_Verifier.ipynb) |
-| **004** | File Integrity Checker | ⭐⭐ | Hash Verification | [Open](CyberSecurity_OS/CYBERSECURITY_TOOLING_LAB/004_File_Integrity_Checker.ipynb) |
-| **005** | Log Analyzer Engine | ⭐⭐ | Regex patterns | [Open](CyberSecurity_OS/CYBERSECURITY_TOOLING_LAB/005_Log_Analyzer_Engine.ipynb) |
-| **006** | Network Monitor Simulator | ⭐⭐⭐ | Socket API, Packets | [Open](CyberSecurity_OS/CYBERSECURITY_TOOLING_LAB/006_Network_Monitor_Simulator.ipynb) |
-| **007** | Vulnerability Scanner Simulator | ⭐⭐ | Port Scanner | [Open](CyberSecurity_OS/CYBERSECURITY_TOOLING_LAB/007_Vulnerability_Scanner_Simulator.ipynb) |
-| **008** | Encryption/Decryption Toolkit | ⭐⭐⭐ | PyCryptodome AES | [Open](CyberSecurity_OS/CYBERSECURITY_TOOLING_LAB/008_Encryption_Decryption_Toolkit.ipynb) |
-| **009** | Secure Chat Simulator | ⭐⭐⭐⭐ | RSA/AES, Sockets | [Open](CyberSecurity_OS/CYBERSECURITY_TOOLING_LAB/009_Secure_Chat_Simulator.ipynb) |
-| **010** | Token Generator System | ⭐⭐⭐ | Cryptography | [Open](CyberSecurity_OS/CYBERSECURITY_TOOLING_LAB/010_Token_Generator_System.ipynb) |
-
----
-
----
-
-## 8. Module 7: CyberSecurity Python Security Engineering Core (001 - 010)
-
-| Notebook | Topic | Difficulty | Prerequisite | Link |
-|:---|:---|:---:|:---|:---|
-| **001** | Secure Coding Principles | ⭐ | None | [Open](CyberSecurity_Python/SECURITY_ENGINEERING_CORE/001_Secure_Coding_Principles.ipynb) |
-| **002** | Injection Prevention: SQL | ⭐⭐ | 001 | [Open](CyberSecurity_Python/SECURITY_ENGINEERING_CORE/002_Injection_Prevention_SQL.ipynb) |
-| **003** | Injection Prevention: Command | ⭐⭐ | 001 | [Open](CyberSecurity_Python/SECURITY_ENGINEERING_CORE/003_Injection_Prevention_Command.ipynb) |
-| **004** | Injection Prevention: XSS | ⭐⭐ | 001 | [Open](CyberSecurity_Python/SECURITY_ENGINEERING_CORE/004_Injection_Prevention_XSS.ipynb) |
-| **005** | Safe Eval/Exec Alternatives | ⭐⭐ | 001 | [Open](CyberSecurity_Python/SECURITY_ENGINEERING_CORE/005_Safe_Eval_Exec_Alternatives.ipynb) |
-| **006** | Secure Serialization | ⭐⭐⭐ | 001 | [Open](CyberSecurity_Python/SECURITY_ENGINEERING_CORE/006_Secure_Serialization.ipynb) |
-| **007** | Secure File Handling | ⭐⭐ | 001 | [Open](CyberSecurity_Python/SECURITY_ENGINEERING_CORE/007_Secure_File_Handling.ipynb) |
-| **008** | Secrets Management | ⭐ | None | [Open](CyberSecurity_Python/SECURITY_ENGINEERING_CORE/008_Secrets_Management.ipynb) |
-| **009** | Logging Security Architecture | ⭐⭐ | 001 | [Open](CyberSecurity_Python/SECURITY_ENGINEERING_CORE/009_Logging_Security_Architecture.ipynb) |
-| **010** | Error Handling Security | ⭐⭐ | 001 | [Open](CyberSecurity_Python/SECURITY_ENGINEERING_CORE/010_Error_Handling_Security.ipynb) |
-
-## 9. Module 8: White Hat Security — Defensive Engineering (001 - 010)
-
-| Notebook | Topic | Difficulty | Prerequisite | Link |
-|:---|:---|:---:|:---|:---|
-| **001** | Cyber Security Fundamentals | ⭐ | None | [Open](CyberSecurity_Python/WHITE_HAT_SECURITY/001_Cyber_Security_Fundamentals.ipynb) |
-| **002** | Identity Access Management | ⭐⭐ | 001 | [Open](CyberSecurity_Python/WHITE_HAT_SECURITY/002_Identity_Access_Management.ipynb) |
-| **003** | Authentication Systems | ⭐⭐ | 001 | [Open](CyberSecurity_Python/WHITE_HAT_SECURITY/003_Authentication_Systems.ipynb) |
-| **004** | Cryptographic Defense Engineering | ⭐⭐⭐ | 003 | [Open](CyberSecurity_Python/WHITE_HAT_SECURITY/004_Cryptographic_Defense_Engineering.ipynb) |
-| **005** | Secure API Engineering | ⭐⭐⭐ | 002 | [Open](CyberSecurity_Python/WHITE_HAT_SECURITY/005_Secure_API_Engineering.ipynb) |
-| **006** | OWASP Top 10 Defense | ⭐⭐⭐ | 001 | [Open](CyberSecurity_Python/WHITE_HAT_SECURITY/006_OWASP_Top_10_Defense.ipynb) |
-| **007** | SQL Injection Prevention | ⭐⭐ | 006 | [Open](CyberSecurity_Python/WHITE_HAT_SECURITY/007_SQL_Injection_Prevention.ipynb) |
-| **008** | XSS & CSRF Defense Architecture | ⭐⭐ | 006 | [Open](CyberSecurity_Python/WHITE_HAT_SECURITY/008_XSS_CSRF_Defense_Architecture.ipynb) |
-| **009** | Session Security Systems | ⭐⭐⭐ | 003 | [Open](CyberSecurity_Python/WHITE_HAT_SECURITY/009_Session_Security_Systems.ipynb) |
-| **010** | TLS/SSL Internal Mechanisms | ⭐⭐⭐ | 004 | [Open](CyberSecurity_Python/WHITE_HAT_SECURITY/010_TLS_SSL_Internal_Mechanisms.ipynb) |
-
----
-
-## 10. How to Study
+## 7. How to Study
 
 1. **Prerequisites & Order**: Do not skip. Master Functions, then OOP, then Data Structures sequentially.
 2. **Execute Locally**: Run cells in Jupyter Notebook, VS Code, or Google Colab, mutating values to check memory behaviors.
