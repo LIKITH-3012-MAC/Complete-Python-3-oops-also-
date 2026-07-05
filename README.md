@@ -25,6 +25,9 @@ graph TD
     B --> C[Module 3: Data Structures Series 031-040]
     C --> D[Module 4: File Handling Series 001-010]
     D --> E[Module 5: Mathematics for AI Series 001-010]
+    E --> F[Module 6: Neural Networks Research Core 001-010]
+    F --> G[Module 7: NLP Research Core 001-010]
+    G --> H[Module 8: AI Engineering Systems 001-010]
 ```
 
 ---
@@ -45,9 +48,19 @@ Complete-Python-3-oops-also/
 ├── Python_DataStructures_Master/      # Module 3: Clickable Data Structures Notebooks (031-040)
 │   ├── 031_Arrays.ipynb
 │   └── ...
-└── Mathematics_for_AI/                # Module 5: Clickable Mathematics Notebooks (001-010)
-    ├── 001_Number_Systems.ipynb
-    └── ...
+├── Mathematics_for_AI/                # Module 5: Clickable Mathematics Notebooks (001-010)
+│   ├── 001_Number_Systems.ipynb
+│   └── ...
+└── DeepLearning_AI/                   # Modules 6-8: Deep Learning & NLP Research Core (001-010)
+    ├── NEURAL_NETWORKS_RESEARCH_CORE/
+    │   ├── 001_Biological_to_Mathematical_Neuron.ipynb
+    │   └── ...
+    ├── NLP_RESEARCH_CORE/
+    │   ├── 001_Linguistic_Foundations.ipynb
+    │   └── ...
+    └── AI_ENGINEERING_SYSTEMS/
+        ├── 001_Dataset_Pipeline_Engineering.ipynb
+        └── ...
 ```
 
 ---
@@ -211,7 +224,60 @@ Complete-Python-3-oops-also/
 
 ---
 
-## 7. How to Study
+---
+
+## 7. Module 6: Neural Networks Research Core (001 - 010)
+
+| Notebook | Topic | Difficulty | Prerequisite | Link |
+|:---|:---|:---:|:---|:---|
+| **001** | Biological to Mathematical Neuron | ⭐⭐⭐ | None | [Open](DeepLearning_AI/NEURAL_NETWORKS_RESEARCH_CORE/001_Biological_to_Mathematical_Neuron.ipynb) |
+| **002** | Perceptron and Convergence | ⭐⭐⭐ | 001 | [Open](DeepLearning_AI/NEURAL_NETWORKS_RESEARCH_CORE/002_Perceptron_and_Convergence.ipynb) |
+| **003** | Multilayer Perceptron Architecture | ⭐⭐⭐ | 002 | [Open](DeepLearning_AI/NEURAL_NETWORKS_RESEARCH_CORE/003_Multilayer_Perceptron_Architecture.ipynb) |
+| **004** | Forward Propagation Mathematics | ⭐⭐⭐⭐ | 003 | [Open](DeepLearning_AI/NEURAL_NETWORKS_RESEARCH_CORE/004_Forward_Propagation_Mathematics.ipynb) |
+| **005** | Backpropagation Derivation | ⭐⭐⭐⭐⭐ | 004 | [Open](DeepLearning_AI/NEURAL_NETWORKS_RESEARCH_CORE/005_Backpropagation_Derivation.ipynb) |
+| **006** | Gradient Descent Optimization | ⭐⭐⭐⭐ | 005 | [Open](DeepLearning_AI/NEURAL_NETWORKS_RESEARCH_CORE/006_Gradient_Descent_Optimization.ipynb) |
+| **007** | Weight Initialization Theory | ⭐⭐⭐ | 006 | [Open](DeepLearning_AI/NEURAL_NETWORKS_RESEARCH_CORE/007_Weight_Initialization_Theory.ipynb) |
+| **008** | Batch Normalization | ⭐⭐⭐⭐ | 006 | [Open](DeepLearning_AI/NEURAL_NETWORKS_RESEARCH_CORE/008_Batch_Normalization.ipynb) |
+| **009** | Dropout Regularization | ⭐⭐⭐ | 006 | [Open](DeepLearning_AI/NEURAL_NETWORKS_RESEARCH_CORE/009_Dropout_Regularization.ipynb) |
+| **010** | Advanced Optimizers | ⭐⭐⭐⭐⭐ | 006 | [Open](DeepLearning_AI/NEURAL_NETWORKS_RESEARCH_CORE/010_Advanced_Optimizers.ipynb) |
+
+---
+
+## 8. Module 7: NLP Research Core (001 - 010)
+
+| Notebook | Topic | Difficulty | Prerequisite | Link |
+|:---|:---|:---:|:---|:---|
+| **001** | Linguistic Foundations | ⭐⭐ | None | [Open](DeepLearning_AI/NLP_RESEARCH_CORE/001_Linguistic_Foundations.ipynb) |
+| **002** | Tokenization Systems | ⭐⭐⭐ | 001 | [Open](DeepLearning_AI/NLP_RESEARCH_CORE/002_Tokenization_Systems.ipynb) |
+| **003** | Bag of Words and TF-IDF | ⭐⭐⭐ | 001 | [Open](DeepLearning_AI/NLP_RESEARCH_CORE/003_Bag_of_Words_and_TFIDF.ipynb) |
+| **004** | Word2Vec Embeddings | ⭐⭐⭐⭐ | 003 | [Open](DeepLearning_AI/NLP_RESEARCH_CORE/004_Word2Vec_Embeddings.ipynb) |
+| **005** | RNN Mathematical Recurrence | ⭐⭐⭐⭐ | 001 | [Open](DeepLearning_AI/NLP_RESEARCH_CORE/005_RNN_Mathematical_Recurrence.ipynb) |
+| **006** | LSTM Gate Equations | ⭐⭐⭐⭐⭐ | 005 | [Open](DeepLearning_AI/NLP_RESEARCH_CORE/006_LSTM_Gate_Equations.ipynb) |
+| **007** | Attention Mechanism | ⭐⭐⭐⭐⭐ | 005 | [Open](DeepLearning_AI/NLP_RESEARCH_CORE/007_Attention_Mechanism.ipynb) |
+| **008** | Transformer Architecture | ⭐⭐⭐⭐⭐ | 007 | [Open](DeepLearning_AI/NLP_RESEARCH_CORE/008_Transformer_Architecture.ipynb) |
+| **009** | BERT Masked Language Modeling | ⭐⭐⭐⭐ | 008 | [Open](DeepLearning_AI/NLP_RESEARCH_CORE/009_BERT_Masked_Language_Modeling.ipynb) |
+| **010** | GPT Autoregressive Modeling | ⭐⭐⭐⭐⭐ | 008 | [Open](DeepLearning_AI/NLP_RESEARCH_CORE/010_GPT_Autoregressive_Modeling.ipynb) |
+
+---
+
+## 9. Module 8: AI Engineering Systems (001 - 010)
+
+| Notebook | Topic | Difficulty | Prerequisite | Link |
+|:---|:---|:---:|:---|:---|
+| **001** | Dataset Pipeline Engineering | ⭐⭐ | None | [Open](DeepLearning_AI/AI_ENGINEERING_SYSTEMS/001_Dataset_Pipeline_Engineering.ipynb) |
+| **002** | Training Pipeline Architecture | ⭐⭐⭐ | 001 | [Open](DeepLearning_AI/AI_ENGINEERING_SYSTEMS/002_Training_Pipeline_Architecture.ipynb) |
+| **003** | Loss Function Engineering | ⭐⭐⭐⭐ | 001 | [Open](DeepLearning_AI/AI_ENGINEERING_SYSTEMS/003_Loss_Function_Engineering.ipynb) |
+| **004** | Regularization Strategies | ⭐⭐⭐ | 001 | [Open](DeepLearning_AI/AI_ENGINEERING_SYSTEMS/004_Regularization_Strategies.ipynb) |
+| **005** | Precision Recall and F1 | ⭐⭐⭐ | None | [Open](DeepLearning_AI/AI_ENGINEERING_SYSTEMS/005_Precision_Recall_and_F1.ipynb) |
+| **006** | ROC AUC Theory | ⭐⭐⭐⭐ | 005 | [Open](DeepLearning_AI/AI_ENGINEERING_SYSTEMS/006_ROC_AUC_Theory.ipynb) |
+| **007** | Bias Variance Decomposition | ⭐⭐⭐⭐ | None | [Open](DeepLearning_AI/AI_ENGINEERING_SYSTEMS/007_Bias_Variance_Decomposition.ipynb) |
+| **008** | Hyperparameter Optimization | ⭐⭐⭐ | None | [Open](DeepLearning_AI/AI_ENGINEERING_SYSTEMS/008_Hyperparameter_Optimization.ipynb) |
+| **009** | Model Compression and Quantization | ⭐⭐⭐⭐ | None | [Open](DeepLearning_AI/AI_ENGINEERING_SYSTEMS/009_Model_Compression_and_Quantization.ipynb) |
+| **010** | Production Deployment Systems | ⭐⭐⭐⭐⭐ | 009 | [Open](DeepLearning_AI/AI_ENGINEERING_SYSTEMS/010_Production_Deployment_Systems.ipynb) |
+
+---
+
+## 10. How to Study
 
 1. **Prerequisites & Order**: Do not skip. Master Functions, then OOP, then Data Structures sequentially.
 2. **Execute Locally**: Run cells in Jupyter Notebook, VS Code, or Google Colab, mutating values to check memory behaviors.
