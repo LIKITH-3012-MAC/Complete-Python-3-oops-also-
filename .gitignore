@@ -1,0 +1,13 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IPynb Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+Thumbs.db
