@@ -120,6 +120,11 @@ Complete-Python-3-oops-also/
 | **042** | Sets (Complete A–Z) | ⭐⭐⭐ | 031 | [Open](Python_DataStructures_Master/042_Sets.ipynb) |
 | **043** | Dictionaries (Complete A–Z) | ⭐⭐⭐ | 031 | [Open](Python_DataStructures_Master/043_Dictionaries.ipynb) |
 | **044** | Strings (Complete A–Z) | ⭐⭐⭐ | None | [Open](Python_DataStructures_Master/044_Strings.ipynb) |
+| **Master** | List CPython Internals | ⭐⭐⭐⭐⭐ | None | [Open](Python_DataStructures_Master/List.ipynb) |
+| **Master** | Tuple CPython Internals | ⭐⭐⭐⭐⭐ | None | [Open](Python_DataStructures_Master/Tuple.ipynb) |
+| **Master** | Set CPython Internals | ⭐⭐⭐⭐⭐ | None | [Open](Python_DataStructures_Master/Set.ipynb) |
+| **Master** | Dict CPython Internals | ⭐⭐⭐⭐⭐ | None | [Open](Python_DataStructures_Master/Dict.ipynb) |
+| **Master** | String CPython Internals | ⭐⭐⭐⭐⭐ | None | [Open](Python_DataStructures_Master/String.ipynb) |
 
 ---
 
@@ -187,6 +192,7 @@ Complete-Python-3-oops-also/
 | **058** | OOP Interview Q | ⭐⭐⭐ | 030, 038 | [Open](Python_OOP_Master/058_OOP_Interview_Q.ipynb) |
 | **059** | OOP Projects | ⭐⭐⭐ | 045, 052 | [Open](Python_OOP_Master/059_OOP_Projects.ipynb) |
 | **060** | OOP Master CheatSheet | ⭐ | None | [Open](Python_OOP_Master/060_OOP_Master_CheatSheet.ipynb) |
+| **Master** | OOPs Full Engine Reference | ⭐⭐⭐⭐⭐ | None | [Open](Python_OOP_Master/OOPs_Full_Engine.ipynb) |
 
 ---
 
