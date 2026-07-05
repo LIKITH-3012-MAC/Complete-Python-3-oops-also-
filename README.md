@@ -23,6 +23,7 @@ The encyclopedia is organized into three major modules completed so far:
 graph TD
     A[Module 1: Functions Series 001-030] --> B[Module 2: OOP Master Series 001-060]
     B --> C[Module 3: Data Structures Series 031-040]
+    C --> D[Module 4: File Handling Series 001-010]
 ```
 
 ---
@@ -165,6 +166,25 @@ Complete-Python-3-oops-also/
 | **058** | OOP Interview Q | ⭐⭐⭐ | 030, 038 | [Open](Python_OOP_Master/058_OOP_Interview_Q.ipynb) |
 | **059** | OOP Projects | ⭐⭐⭐ | 045, 052 | [Open](Python_OOP_Master/059_OOP_Projects.ipynb) |
 | **060** | OOP Master CheatSheet | ⭐ | None | [Open](Python_OOP_Master/060_OOP_Master_CheatSheet.ipynb) |
+
+---
+
+---
+
+## 5. Module 4: Python File Handling Series (001 - 010)
+
+| Notebook | Topic | Difficulty | Prerequisite | Link |
+|:---|:---|:---:|:---|:---|
+| **001** | File Handling Introduction | ⭐ | None | [Open](File_Handling/001_File_Handling_Introduction.ipynb) |
+| **002** | File Objects | ⭐ | 001 | [Open](File_Handling/002_File_Objects.ipynb) |
+| **003** | Reading Files | ⭐ | 002 | [Open](File_Handling/003_Reading_Files.ipynb) |
+| **004** | Writing Files | ⭐ | 002 | [Open](File_Handling/004_Writing_Files.ipynb) |
+| **005** | Appending Files | ⭐ | 004 | [Open](File_Handling/005_Appending_Files.ipynb) |
+| **006** | File Modes | ⭐⭐ | 002 | [Open](File_Handling/006_File_Modes.ipynb) |
+| **007** | File Pointers | ⭐⭐ | 002 | [Open](File_Handling/007_File_Pointers.ipynb) |
+| **008** | File Truncation | ⭐⭐ | 004 | [Open](File_Handling/008_File_Truncation.ipynb) |
+| **009** | With Statement | ⭐ | 002 | [Open](File_Handling/009_With_Statement.ipynb) |
+| **010** | Serialization JSON | ⭐⭐ | 003, 004 | [Open](File_Handling/010_Serialization_JSON.ipynb) |
 
 ---
 
