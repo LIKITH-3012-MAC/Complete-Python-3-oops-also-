@@ -26,6 +26,7 @@ graph TD
     C --> D[Module 4: File Handling Series 001-010]
     D --> E[Module 5: Mathematics for AI Series 001-010]
     E --> F[Module 6: CyberSecurity OS Tooling Lab 001-010]
+    F --> G[Module 7: CyberSecurity Python Security Engineering Core 001-010]
 ```
 
 ---
@@ -49,9 +50,13 @@ Complete-Python-3-oops-also/
 ├── Mathematics_for_AI/                # Module 5: Clickable Mathematics Notebooks (001-010)
 │   ├── 001_Number_Systems.ipynb
 │   └── ...
-└── CyberSecurity_OS/                  # Module 6: Clickable CyberSecurity Notebooks (001-010)
-    ├── CYBERSECURITY_TOOLING_LAB/
-    │   ├── 001_Port_Scanner.ipynb
+├── CyberSecurity_OS/                  # Module 6: Clickable CyberSecurity Notebooks (001-010)
+│   ├── CYBERSECURITY_TOOLING_LAB/
+│   │   ├── 001_Port_Scanner.ipynb
+│   │   └── ...
+└── CyberSecurity_Python/              # Module 7: Clickable CyberSecurity Python Notebooks (001-010)
+    ├── SECURITY_ENGINEERING_CORE/
+    │   ├── 001_Secure_Coding_Principles.ipynb
     │   └── ...
 ```
 
@@ -235,7 +240,26 @@ Complete-Python-3-oops-also/
 
 ---
 
-## 8. How to Study
+---
+
+## 8. Module 7: CyberSecurity Python Security Engineering Core (001 - 010)
+
+| Notebook | Topic | Difficulty | Prerequisite | Link |
+|:---|:---|:---:|:---|:---|
+| **001** | Secure Coding Principles | ⭐ | None | [Open](CyberSecurity_Python/SECURITY_ENGINEERING_CORE/001_Secure_Coding_Principles.ipynb) |
+| **002** | Injection Prevention: SQL | ⭐⭐ | 001 | [Open](CyberSecurity_Python/SECURITY_ENGINEERING_CORE/002_Injection_Prevention_SQL.ipynb) |
+| **003** | Injection Prevention: Command | ⭐⭐ | 001 | [Open](CyberSecurity_Python/SECURITY_ENGINEERING_CORE/003_Injection_Prevention_Command.ipynb) |
+| **004** | Injection Prevention: XSS | ⭐⭐ | 001 | [Open](CyberSecurity_Python/SECURITY_ENGINEERING_CORE/004_Injection_Prevention_XSS.ipynb) |
+| **005** | Safe Eval/Exec Alternatives | ⭐⭐ | 001 | [Open](CyberSecurity_Python/SECURITY_ENGINEERING_CORE/005_Safe_Eval_Exec_Alternatives.ipynb) |
+| **006** | Secure Serialization | ⭐⭐⭐ | 001 | [Open](CyberSecurity_Python/SECURITY_ENGINEERING_CORE/006_Secure_Serialization.ipynb) |
+| **007** | Secure File Handling | ⭐⭐ | 001 | [Open](CyberSecurity_Python/SECURITY_ENGINEERING_CORE/007_Secure_File_Handling.ipynb) |
+| **008** | Secrets Management | ⭐ | None | [Open](CyberSecurity_Python/SECURITY_ENGINEERING_CORE/008_Secrets_Management.ipynb) |
+| **009** | Logging Security Architecture | ⭐⭐ | 001 | [Open](CyberSecurity_Python/SECURITY_ENGINEERING_CORE/009_Logging_Security_Architecture.ipynb) |
+| **010** | Error Handling Security | ⭐⭐ | 001 | [Open](CyberSecurity_Python/SECURITY_ENGINEERING_CORE/010_Error_Handling_Security.ipynb) |
+
+---
+
+## 9. How to Study
 
 1. **Prerequisites & Order**: Do not skip. Master Functions, then OOP, then Data Structures sequentially.
 2. **Execute Locally**: Run cells in Jupyter Notebook, VS Code, or Google Colab, mutating values to check memory behaviors.
