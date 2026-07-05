@@ -27,6 +27,7 @@ graph TD
     D --> E[Module 5: Mathematics for AI Series 001-010]
     E --> F[Module 6: CyberSecurity OS Tooling Lab 001-010]
     F --> G[Module 7: CyberSecurity Python Security Engineering Core 001-010]
+    G --> H[Module 8: White Hat Security Defensive Engineering 001-010]
 ```
 
 ---
@@ -257,9 +258,24 @@ Complete-Python-3-oops-also/
 | **009** | Logging Security Architecture | ⭐⭐ | 001 | [Open](CyberSecurity_Python/SECURITY_ENGINEERING_CORE/009_Logging_Security_Architecture.ipynb) |
 | **010** | Error Handling Security | ⭐⭐ | 001 | [Open](CyberSecurity_Python/SECURITY_ENGINEERING_CORE/010_Error_Handling_Security.ipynb) |
 
+## 9. Module 8: White Hat Security — Defensive Engineering (001 - 010)
+
+| Notebook | Topic | Difficulty | Prerequisite | Link |
+|:---|:---|:---:|:---|:---|
+| **001** | Cyber Security Fundamentals | ⭐ | None | [Open](CyberSecurity_Python/WHITE_HAT_SECURITY/001_Cyber_Security_Fundamentals.ipynb) |
+| **002** | Identity Access Management | ⭐⭐ | 001 | [Open](CyberSecurity_Python/WHITE_HAT_SECURITY/002_Identity_Access_Management.ipynb) |
+| **003** | Authentication Systems | ⭐⭐ | 001 | [Open](CyberSecurity_Python/WHITE_HAT_SECURITY/003_Authentication_Systems.ipynb) |
+| **004** | Cryptographic Defense Engineering | ⭐⭐⭐ | 003 | [Open](CyberSecurity_Python/WHITE_HAT_SECURITY/004_Cryptographic_Defense_Engineering.ipynb) |
+| **005** | Secure API Engineering | ⭐⭐⭐ | 002 | [Open](CyberSecurity_Python/WHITE_HAT_SECURITY/005_Secure_API_Engineering.ipynb) |
+| **006** | OWASP Top 10 Defense | ⭐⭐⭐ | 001 | [Open](CyberSecurity_Python/WHITE_HAT_SECURITY/006_OWASP_Top_10_Defense.ipynb) |
+| **007** | SQL Injection Prevention | ⭐⭐ | 006 | [Open](CyberSecurity_Python/WHITE_HAT_SECURITY/007_SQL_Injection_Prevention.ipynb) |
+| **008** | XSS & CSRF Defense Architecture | ⭐⭐ | 006 | [Open](CyberSecurity_Python/WHITE_HAT_SECURITY/008_XSS_CSRF_Defense_Architecture.ipynb) |
+| **009** | Session Security Systems | ⭐⭐⭐ | 003 | [Open](CyberSecurity_Python/WHITE_HAT_SECURITY/009_Session_Security_Systems.ipynb) |
+| **010** | TLS/SSL Internal Mechanisms | ⭐⭐⭐ | 004 | [Open](CyberSecurity_Python/WHITE_HAT_SECURITY/010_TLS_SSL_Internal_Mechanisms.ipynb) |
+
 ---
 
-## 9. How to Study
+## 10. How to Study
 
 1. **Prerequisites & Order**: Do not skip. Master Functions, then OOP, then Data Structures sequentially.
 2. **Execute Locally**: Run cells in Jupyter Notebook, VS Code, or Google Colab, mutating values to check memory behaviors.
