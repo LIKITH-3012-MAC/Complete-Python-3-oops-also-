@@ -22,7 +22,7 @@ The encyclopedia is organized into three major modules completed so far:
 ```mermaid
 graph TD
     A[Module 1: Functions Series 001-030] --> B[Module 2: OOP Master Series 001-060]
-    B --> C[Module 3: Data Structures Series 031-040]
+    B --> C[Module 3: Data Structures Series 031-044]
     C --> D[Module 4: File Handling Series 001-010]
     D --> E[Module 5: Mathematics for AI Series 001-010]
     E --> F[Module 6: Neural Networks Research Core 001-010]
@@ -102,7 +102,7 @@ Complete-Python-3-oops-also/
 
 ---
 
-## 4. Module 2: Python Data Structures Series (031 - 040)
+## 4. Module 2: Python Data Structures Series (031 - 044)
 
 | Notebook | Topic | Difficulty | Prerequisite | Link |
 |:---|:---|:---:|:---|:---|
@@ -116,6 +116,10 @@ Complete-Python-3-oops-also/
 | **038** | Circular Queue | ⭐⭐ | 037 | [Open](Python_DataStructures_Master/038_Circular_Queue.ipynb) |
 | **039** | Deques | ⭐⭐ | 034 | [Open](Python_DataStructures_Master/039_Deques.ipynb) |
 | **040** | Priority Queue | ⭐⭐ | 031 | [Open](Python_DataStructures_Master/040_Priority_Queue.ipynb) |
+| **041** | Tuples (Complete A–Z) | ⭐⭐ | 031 | [Open](Python_DataStructures_Master/041_Tuples.ipynb) |
+| **042** | Sets (Complete A–Z) | ⭐⭐⭐ | 031 | [Open](Python_DataStructures_Master/042_Sets.ipynb) |
+| **043** | Dictionaries (Complete A–Z) | ⭐⭐⭐ | 031 | [Open](Python_DataStructures_Master/043_Dictionaries.ipynb) |
+| **044** | Strings (Complete A–Z) | ⭐⭐⭐ | None | [Open](Python_DataStructures_Master/044_Strings.ipynb) |
 
 ---
 
