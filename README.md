@@ -25,6 +25,7 @@ graph TD
     B --> C[Module 3: Data Structures Series 031-040]
     C --> D[Module 4: File Handling Series 001-010]
     D --> E[Module 5: Mathematics for AI Series 001-010]
+    E --> F[Module 6: CyberSecurity OS Tooling Lab 001-010]
 ```
 
 ---
@@ -45,9 +46,13 @@ Complete-Python-3-oops-also/
 ├── Python_DataStructures_Master/      # Module 3: Clickable Data Structures Notebooks (031-040)
 │   ├── 031_Arrays.ipynb
 │   └── ...
-└── Mathematics_for_AI/                # Module 5: Clickable Mathematics Notebooks (001-010)
-    ├── 001_Number_Systems.ipynb
-    └── ...
+├── Mathematics_for_AI/                # Module 5: Clickable Mathematics Notebooks (001-010)
+│   ├── 001_Number_Systems.ipynb
+│   └── ...
+└── CyberSecurity_OS/                  # Module 6: Clickable CyberSecurity Notebooks (001-010)
+    ├── CYBERSECURITY_TOOLING_LAB/
+    │   ├── 001_Port_Scanner.ipynb
+    │   └── ...
 ```
 
 ---
@@ -211,7 +216,26 @@ Complete-Python-3-oops-also/
 
 ---
 
-## 7. How to Study
+---
+
+## 7. Module 6: CyberSecurity OS Tooling Lab (001 - 010)
+
+| Notebook | Topic | Difficulty | Prerequisite | Link |
+|:---|:---|:---:|:---|:---|
+| **001** | Port Scanner | ⭐⭐ | Socket API | [Open](CyberSecurity_OS/CYBERSECURITY_TOOLING_LAB/001_Port_Scanner.ipynb) |
+| **002** | Password Strength Analyzer | ⭐ | None | [Open](CyberSecurity_OS/CYBERSECURITY_TOOLING_LAB/002_Password_Strength_Analyzer.ipynb) |
+| **003** | Hash Generator & Verifier | ⭐ | None | [Open](CyberSecurity_OS/CYBERSECURITY_TOOLING_LAB/003_Hash_Generator_and_Verifier.ipynb) |
+| **004** | File Integrity Checker | ⭐⭐ | Hash Verification | [Open](CyberSecurity_OS/CYBERSECURITY_TOOLING_LAB/004_File_Integrity_Checker.ipynb) |
+| **005** | Log Analyzer Engine | ⭐⭐ | Regex patterns | [Open](CyberSecurity_OS/CYBERSECURITY_TOOLING_LAB/005_Log_Analyzer_Engine.ipynb) |
+| **006** | Network Monitor Simulator | ⭐⭐⭐ | Socket API, Packets | [Open](CyberSecurity_OS/CYBERSECURITY_TOOLING_LAB/006_Network_Monitor_Simulator.ipynb) |
+| **007** | Vulnerability Scanner Simulator | ⭐⭐ | Port Scanner | [Open](CyberSecurity_OS/CYBERSECURITY_TOOLING_LAB/007_Vulnerability_Scanner_Simulator.ipynb) |
+| **008** | Encryption/Decryption Toolkit | ⭐⭐⭐ | PyCryptodome AES | [Open](CyberSecurity_OS/CYBERSECURITY_TOOLING_LAB/008_Encryption_Decryption_Toolkit.ipynb) |
+| **009** | Secure Chat Simulator | ⭐⭐⭐⭐ | RSA/AES, Sockets | [Open](CyberSecurity_OS/CYBERSECURITY_TOOLING_LAB/009_Secure_Chat_Simulator.ipynb) |
+| **010** | Token Generator System | ⭐⭐⭐ | Cryptography | [Open](CyberSecurity_OS/CYBERSECURITY_TOOLING_LAB/010_Token_Generator_System.ipynb) |
+
+---
+
+## 8. How to Study
 
 1. **Prerequisites & Order**: Do not skip. Master Functions, then OOP, then Data Structures sequentially.
 2. **Execute Locally**: Run cells in Jupyter Notebook, VS Code, or Google Colab, mutating values to check memory behaviors.
