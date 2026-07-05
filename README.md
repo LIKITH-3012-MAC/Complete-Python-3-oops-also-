@@ -24,6 +24,7 @@ graph TD
     A[Module 1: Functions Series 001-030] --> B[Module 2: OOP Master Series 001-060]
     B --> C[Module 3: Data Structures Series 031-040]
     C --> D[Module 4: File Handling Series 001-010]
+    D --> E[Module 5: Mathematics for AI Series 001-010]
 ```
 
 ---
@@ -41,8 +42,11 @@ Complete-Python-3-oops-also/
 ├── Python_OOP_Master/                 # Module 2: Clickable OOP Notebooks (001-060)
 │   ├── 001_OOP_Introduction.ipynb
 │   └── ...
-└── Python_DataStructures_Master/      # Module 3: Clickable Data Structures Notebooks (031-040)
-    ├── 031_Arrays.ipynb
+├── Python_DataStructures_Master/      # Module 3: Clickable Data Structures Notebooks (031-040)
+│   ├── 031_Arrays.ipynb
+│   └── ...
+└── Mathematics_for_AI/                # Module 5: Clickable Mathematics Notebooks (001-010)
+    ├── 001_Number_Systems.ipynb
     └── ...
 ```
 
@@ -188,7 +192,26 @@ Complete-Python-3-oops-also/
 
 ---
 
-## 6. How to Study
+---
+
+## 6. Module 5: Mathematics for AI Series (001 - 010)
+
+| Notebook | Topic | Difficulty | Prerequisite | Link |
+|:---|:---|:---:|:---|:---|
+| **001** | Number Systems | ⭐ | None | [Open](Mathematics_for_AI/001_Number_Systems.ipynb) |
+| **002** | Exponents & Logarithms | ⭐ | 001 | [Open](Mathematics_for_AI/002_Exponents_and_Logarithms.ipynb) |
+| **003** | Vectors & Vector Spaces | ⭐⭐ | 001 | [Open](Mathematics_for_AI/003_Vectors_and_Vector_Spaces.ipynb) |
+| **004** | Matrices & Linear Transformations | ⭐⭐ | 003 | [Open](Mathematics_for_AI/004_Matrices_and_Linear_Transformations.ipynb) |
+| **005** | Matrix Inverse & Systems | ⭐⭐⭐ | 004 | [Open](Mathematics_for_AI/005_Matrix_Inverse_and_Systems.ipynb) |
+| **006** | Limits & Continuity | ⭐⭐ | 002 | [Open](Mathematics_for_AI/006_Limits_and_Continuity.ipynb) |
+| **007** | Differentiation & Rates of Change | ⭐⭐ | 006 | [Open](Mathematics_for_AI/007_Differentiation_and_Rates_of_Change.ipynb) |
+| **008** | Partial Derivatives & Gradients | ⭐⭐⭐ | 007 | [Open](Mathematics_for_AI/008_Partial_Derivatives_and_Gradients.ipynb) |
+| **009** | Gradient Descent Mathematics | ⭐⭐⭐ | 008 | [Open](Mathematics_for_AI/009_Gradient_Descent_Mathematics.ipynb) |
+| **010** | Entropy & Cross-Entropy | ⭐⭐⭐ | 002, 008 | [Open](Mathematics_for_AI/010_Entropy_and_Cross_Entropy.ipynb) |
+
+---
+
+## 7. How to Study
 
 1. **Prerequisites & Order**: Do not skip. Master Functions, then OOP, then Data Structures sequentially.
 2. **Execute Locally**: Run cells in Jupyter Notebook, VS Code, or Google Colab, mutating values to check memory behaviors.
