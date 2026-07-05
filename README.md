@@ -1,67 +1,107 @@
-# 🐍 Ultimate Python OOP Master Notebook Collection
+# 🐍 Ultimate Python Master Encyclopedia
 
 ```
 ========================================================================================
-████████╗███████╗ ██████╗██╗  ██╗ ██████╗  ██████╗  ██████╗     ███╗   ███╗ █████╗ ███████╗████████╗███████╗██████╗ 
-╚══██╔══╝██╔════╝██╔════╝██║  ██║██╔════╝ ██╔═══██╗██╔═══██╗    ████╗ ████║██╔══██╗██╔════╝╚══██╔══╝██╔════╝██╔══██╗
-   ██║   █████╗  ██║     ███████║██║      ██║   ██║██║   ██║    ██╔████╔██║███████║███████╗   ██║   █████╗  ██████╔╝
-   ██║   ██╔══╝  ██║     ██╔══██║██║      ██║   ██║██║   ██║    ██║╚██╔╝██║██╔══██║╚════██║   ██║   ██╔══╝  ██╔══██╗
-   ██║   ███████╗╚██████╗██║  ██║╚██████╗ ╚██████╔╝╚██████╔╝    ██║ ╚═╝ ██║██║  ██║███████║   ██║   ███████╗██║  ██║
-   ╚═╝   ╚══════╝ ╚═════╝╚═╝  ╚═╝ ╚═════╝  ╚═════╝  ╚═════╝     ╚═╝     ╚═╝╚═╝  ╚═╝╚══════╝   ╚═╝   ╚══════╝╚═╝  ╚═╝
+██████╗ ██╗   ██╗████████╗██╗  ██╗ ██████╗ ███╗   ██╗    ███████╗███╗   ███╗ ██████╗██╗   ██╗
+██╔══██╗╚██╗ ██╔╝╚══██╔══╝██║  ██║██╔═══██╗████╗  ██║    ██╔════╝████╗ ████║██╔════╝╚██╗ ██╔╝
+██████╔╝ ╚████╔╝    ██║   ███████║██║   ██║██╔██╗ ██║    █████╗  ██╔████╔██║██║      ╚████╔╝ 
+██╔═══╝   ╚██╔╝     ██║   ██╔══██║██║   ██║██║╚██╗██║    ██╔══╝  ██║╚██╔╝██║██║       ╚██╔╝  
+██║        ██║      ██║   ██║  ██║╚██████╔╝██║ ╚████║    ███████╗██║ ╚═╝ ██║╚██████╗   ██║   
+╚═╝        ╚═╝      ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝    ╚══════╝╚═╝     ╚═╝ ╚═════╝   ╚═╝   
 ========================================================================================
 ```
 
-Welcome to the **Ultimate Python Object-Oriented Programming (OOP) Master Collection**! This is a complete, professional, CPython-contributor-level learning repository containing **60 standalone Jupyter Notebooks** designed to guide you from an absolute beginner to a master-level expert in Python OOP and execution models.
+Welcome to the **Ultimate Python Master Encyclopedia**! This is a complete, production-quality, CPython-contributor-level learning repository containing standalone Jupyter Notebooks designed to guide you from an absolute beginner to a master-level expert in Python programming, software design, memory allocation, and execution models.
 
 ---
 
-## 1. Project Overview
+## 1. Project Curriculum Path
 
-This repository exists to fill the gap between high-level Python tutorials and low-level execution mechanics. Every notebook is fully self-contained, acts as an independent topic class, and teaches concepts deeply using the following curriculum path:
+The encyclopedia is organized into three major modules completed so far:
 
-1. **Foundations (001 - 008)**: Anatomy of classes, namespaces, objects, and memory slots.
-2. **Methods & Access (009 - 015)**: Bound methods, `@classmethod`, `@staticmethod`, encapsulation, name mangling, and abstraction.
-3. **Inheritance & Polymorphism (016 - 026)**: Cooperative multiple inheritance, the C3 Linearization MRO algorithm, and operator overloading.
-4. **Protocols & Advanced Access (027 - 043)**: Magic/dunder methods, property accessors, descriptors, slots, and typing Protocols.
-5. **Metaprogramming & Internals (044 - 051)**: Context managers, custom metaclasses, reflection, introspection, and CPython heap structures.
-6. **Design & Practice (052 - 060)**: SOLID principles, design patterns, exercises, interview questions, projects, and cheat sheets.
+```mermaid
+graph TD
+    A[Module 1: Functions Series 001-030] --> B[Module 2: OOP Master Series 001-060]
+    B --> C[Module 3: Data Structures Series 031-040]
+```
 
 ---
 
-## 2. Repository Structure
+## 2. Directory Structure
 
 The project files are organized as follows:
 
 ```
-Ultimate-Python-OOP/
-├── README.md                          # Repository Home and Navigation
-├── compile_oop.py                     # Python compiler converting sources to notebooks
-├── oop_sources/                       # Standalone Python source code files
-│   ├── 001_OOP_Introduction.py
-│   ├── 002_Classes.py
+Complete-Python-3-oops-also/
+├── README.md                          # Repository Unified Home and Index
+├── Python_Functions_Master/           # Module 1: Clickable Functions Notebooks (001-030)
+│   ├── 001_Functions_Introduction.ipynb
 │   └── ...
-└── Python_OOP_Master/                 # Clickable Compiled Jupyter Notebooks (.ipynb)
-    ├── 001_OOP_Introduction.ipynb
-    ├── 002_Classes.ipynb
+├── Python_OOP_Master/                 # Module 2: Clickable OOP Notebooks (001-060)
+│   ├── 001_OOP_Introduction.ipynb
+│   └── ...
+└── Python_DataStructures_Master/      # Module 3: Clickable Data Structures Notebooks (031-040)
+    ├── 031_Arrays.ipynb
     └── ...
 ```
 
 ---
 
-## 3. Learning Roadmap
+## 3. Module 1: Python Functions Series (001 - 030)
 
-```mermaid
-graph TD
-    A[Phase 1: Fundamentals 001-008] --> B[Phase 2: Methods & Access Controls 009-015]
-    B --> C[Phase 3: Inheritance & Polymorphism 016-026]
-    C --> D[Phase 4: Protocols & Custom Accessors 027-043]
-    D --> E[Phase 5: Resource Controls & Metaprogramming 044-051]
-    E --> F[Phase 6: OOP Design, SOLID & Interviews 052-060]
-```
+| Notebook | Topic | Difficulty | Prerequisite | Link |
+|:---|:---|:---:|:---|:---|
+| **001** | Functions Introduction | ⭐ | None | [Open](Python_Functions_Master/001_Functions_Introduction.ipynb) |
+| **002** | Function Definition | ⭐ | 001 | [Open](Python_Functions_Master/002_Function_Definition.ipynb) |
+| **003** | Function Arguments | ⭐ | 002 | [Open](Python_Functions_Master/003_Function_Arguments.ipynb) |
+| **004** | Default Arguments | ⭐ | 003 | [Open](Python_Functions_Master/004_Default_Arguments.ipynb) |
+| **005** | Keyword Arguments | ⭐ | 003 | [Open](Python_Functions_Master/005_Keyword_Arguments.ipynb) |
+| **006** | Positional Arguments | ⭐ | 003 | [Open](Python_Functions_Master/006_Positional_Arguments.ipynb) |
+| **007** | Positional-Only Arguments | ⭐⭐ | 006 | [Open](Python_Functions_Master/007_Positional_Only_Arguments.ipynb) |
+| **008** | Keyword-Only Arguments | ⭐⭐ | 005 | [Open](Python_Functions_Master/008_Keyword_Only_Arguments.ipynb) |
+| **009** | args packing | ⭐ | 006 | [Open](Python_Functions_Master/009_args.ipynb) |
+| **010** | kwargs packing | ⭐ | 005 | [Open](Python_Functions_Master/010_kwargs.ipynb) |
+| **011** | Return Statement | ⭐ | 002 | [Open](Python_Functions_Master/011_Return_Statement.ipynb) |
+| **012** | Scope | ⭐⭐ | 002 | [Open](Python_Functions_Master/012_Scope.ipynb) |
+| **013** | LEGB Rule | ⭐⭐ | 012 | [Open](Python_Functions_Master/013_LEGB_Rule.ipynb) |
+| **014** | Recursion | ⭐⭐⭐ | 002, 011 | [Open](Python_Functions_Master/014_Recursion.ipynb) |
+| **015** | Lambda Functions | ⭐⭐ | 002 | [Open](Python_Functions_Master/015_Lambda_Functions.ipynb) |
+| **016** | Map, Filter, Reduce | ⭐⭐ | 015 | [Open](Python_Functions_Master/016_Map_Filter_Reduce.ipynb) |
+| **017** | Closures | ⭐⭐⭐ | 013 | [Open](Python_Functions_Master/017_Closures.ipynb) |
+| **018** | Decorators | ⭐⭐⭐ | 017 | [Open](Python_Functions_Master/018_Decorators.ipynb) |
+| **019** | Generators | ⭐⭐⭐ | 011 | [Open](Python_Functions_Master/019_Generators.ipynb) |
+| **020** | Yield statement | ⭐⭐⭐ | 019 | [Open](Python_Functions_Master/020_Yield.ipynb) |
+| **021** | Coroutines | ⭐⭐⭐ | 020 | [Open](Python_Functions_Master/021_Coroutines.ipynb) |
+| **022** | Async / Await | ⭐⭐⭐⭐ | 021 | [Open](Python_Functions_Master/022_Async_Await.ipynb) |
+| **023** | Iterators | ⭐⭐ | 019 | [Open](Python_Functions_Master/023_Iterators.ipynb) |
+| **024** | Iterable Protocol | ⭐⭐ | 023 | [Open](Python_Functions_Master/024_Iterable_Protocol.ipynb) |
+| **025** | Context Managers | ⭐⭐ | 024 | [Open](Python_Functions_Master/025_Context_Managers.ipynb) |
+| **026** | Function Caching | ⭐⭐ | 018 | [Open](Python_Functions_Master/026_Function_Caching.ipynb) |
+| **027** | Partial Functions | ⭐⭐ | 003 | [Open](Python_Functions_Master/027_Partial_Functions.ipynb) |
+| **028** | Higher Order Functions | ⭐⭐⭐ | 003 | [Open](Python_Functions_Master/028_Higher_Order_Functions.ipynb) |
+| **029** | Callback Functions | ⭐⭐ | 028 | [Open](Python_Functions_Master/029_Callback_Functions.ipynb) |
+| **030** | Function Best Practices | ⭐ | None | [Open](Python_Functions_Master/030_Function_Best_Practices.ipynb) |
 
 ---
 
-## 4. Navigation Table
+## 4. Module 2: Python Data Structures Series (031 - 040)
+
+| Notebook | Topic | Difficulty | Prerequisite | Link |
+|:---|:---|:---:|:---|:---|
+| **031** | Arrays | ⭐ | None | [Open](Python_DataStructures_Master/031_Arrays.ipynb) |
+| **032** | Lists (Dynamic Arrays) | ⭐ | 031 | [Open](Python_DataStructures_Master/032_Lists.ipynb) |
+| **033** | Singly Linked List | ⭐ | None | [Open](Python_DataStructures_Master/033_Singly_Linked_List.ipynb) |
+| **034** | Doubly Linked List | ⭐ | 033 | [Open](Python_DataStructures_Master/034_Doubly_Linked_List.ipynb) |
+| **035** | Circular Linked List | ⭐ | 033 | [Open](Python_DataStructures_Master/035_Circular_Linked_List.ipynb) |
+| **036** | Stacks | ⭐ | 031, 033 | [Open](Python_DataStructures_Master/036_Stacks.ipynb) |
+| **037** | Queues | ⭐ | 031, 033 | [Open](Python_DataStructures_Master/037_Queues.ipynb) |
+| **038** | Circular Queue | ⭐⭐ | 037 | [Open](Python_DataStructures_Master/038_Circular_Queue.ipynb) |
+| **039** | Deques | ⭐⭐ | 034 | [Open](Python_DataStructures_Master/039_Deques.ipynb) |
+| **040** | Priority Queue | ⭐⭐ | 031 | [Open](Python_DataStructures_Master/040_Priority_Queue.ipynb) |
+
+---
+
+## 5. Module 3: Python OOP Master Series (001 - 060)
 
 | Notebook | Topic | Difficulty | Prerequisite | Link |
 |:---|:---|:---:|:---|:---|
@@ -103,7 +143,7 @@ graph TD
 | **036** | Property Setter | ⭐⭐ | 035 | [Open](Python_OOP_Master/036_Property_Setter.ipynb) |
 | **037** | Property Deleter | ⭐⭐ | 036 | [Open](Python_OOP_Master/037_Property_Deleter.ipynb) |
 | **038** | Descriptors | ⭐⭐⭐⭐ | 035 | [Open](Python_OOP_Master/038_Descriptors.ipynb) |
-| **039**| slots | ⭐⭐⭐ | 006 | [Open](Python_OOP_Master/039___slots__.ipynb) |
+| **039** | slots | ⭐⭐⭐ | 006 | [Open](Python_OOP_Master/039___slots__.ipynb) |
 | **040** | Dataclasses | ⭐⭐ | 004 | [Open](Python_OOP_Master/040_Dataclasses.ipynb) |
 | **041** | ABC Module | ⭐⭐⭐ | 015 | [Open](Python_OOP_Master/041_ABC_Module.ipynb) |
 | **042** | Abstract Base Classes | ⭐⭐⭐ | 041 | [Open](Python_OOP_Master/042_Abstract_Base_Classes.ipynb) |
@@ -128,197 +168,14 @@ graph TD
 
 ---
 
-## 5. How to Study
+## 6. How to Study
 
-* **Follow Sequential Order**: Every notebook builds upon previous concepts. Do NOT skip modules.
-* **Observe Prerequisite Requirements**: Ensure you completed the specified prerequisite notebook before advancing.
-* **Estimated Study Time**: Spend approximately 1-2 hours per notebook. Run every block, analyze outputs, and solve the coding challenges.
-* **Revision Loop**: Review the Cheat Sheet (`060`) weekly to retain terminology.
-
----
-
-## 6. Notebook Format
-
-Every notebook contains a standardized, comprehensive template:
-1. **Curriculum Comment Block**: Contains standard definitions, internal working, memory behavior, advantages/disadvantages, best practices, and common bugs.
-2. **Interactive Code Examples**: Executable, line-by-line commented scripts spanning:
-   - 💻 *Beginner*: Basic syntax and layout.
-   - 💻 *Intermediate*: State modifications and error catches.
-   - 💻 *Advanced*: Complex descriptors, meta overrides, or protocol configurations.
-3. **FAANG-style Coding Challenges**: Custom coding challenges containing complete, executable solutions.
-4. **Interview QA Bank**: Beginner, intermediate, and senior-level interview questions.
+1. **Prerequisites & Order**: Do not skip. Master Functions, then OOP, then Data Structures sequentially.
+2. **Execute Locally**: Run cells in Jupyter Notebook, VS Code, or Google Colab, mutating values to check memory behaviors.
+3. **Benchmarks**: Note complexity analysis and execution profiling metrics.
 
 ---
 
-## 7. Icons & Difficulty Legend
+## 7. License
 
-### Difficulty Scale:
-* ⭐ **Beginner**: Conceptual introductions, standard variables/classes.
-* ⭐⭐ **Intermediate**: Methods, basic inheritance, scoping rules.
-* ⭐⭐⭐ **Advanced**: Multiple inheritance, custom decorators, abstract factories.
-* ⭐⭐⭐⭐ **Expert**: Descriptors protocol, C3 linearization, slots memory buffers.
-* ⭐⭐⭐⭐⭐ **CPython Level**: Metaclasses compilation hooks, PyObject structures.
-
-### Emoji Indicators:
-* 📘 **Theory**: Fundamental OOP logic.
-* 💻 **Code**: Clean commented scripts.
-* 🧠 **Internal Working**: Interpreter actions.
-* ⚡ **Performance**: Time and Space optimization.
-* 🎯 **Interview**: Target questions.
-* 📝 **Exercise**: Coding challenges.
-* ✅ **Solution**: Challenge resolutions.
-
----
-
-## 8. Prerequisite Dependency Graph
-
-```mermaid
-graph TD
-    001[001 Introduction] --> 002[002 Classes]
-    002 --> 003[003 Objects]
-    003 --> 004[004 Constructors]
-    004 --> 005[005 Destructors]
-    004 --> 006[006 Instance Variables]
-    006 --> 007[007 Class Variables]
-    007 --> 008[008 Static Variables]
-    004 --> 009[009 Instance Methods]
-    009 --> 010[010 Class Methods]
-    009 --> 011[011 Static Methods]
-    010 --> 012[012 Self vs Cls]
-    011 --> 012
-    006 --> 013[013 Access Modifiers]
-    013 --> 014[014 Encapsulation]
-    014 --> 015[015 Abstraction]
-    002 --> 016[016 Inheritance Intro]
-    016 --> 017[017 Single Inheritance]
-    017 --> 018[018 Multiple Inheritance]
-    017 --> 019[019 Multilevel Inheritance]
-    017 --> 020[020 Hierarchical Inheritance]
-    018 --> 021[021 Hybrid Inheritance]
-    019 --> 021
-    017 --> 022[022 Method Overriding]
-    009 --> 023[023 Method Overloading]
-    022 --> 024[024 Polymorphism]
-    024 --> 025[025 Duck Typing]
-    024 --> 026[026 Operator Overloading]
-    003 --> 027[027 Magic Methods]
-    027 --> 028[028 Dunder Methods]
-    018 --> 029[029 super]
-    022 --> 029
-    021 --> 030[030 MRO]
-    029 --> 030
-    003 --> 031[031 Composition]
-    031 --> 032[032 Aggregation]
-    031 --> 033[033 Association]
-    018 --> 034[034 Mixins]
-    014 --> 035[035 Property]
-    035 --> 036[036 Property Setter]
-    036 --> 037[037 Property Deleter]
-    035 --> 038[038 Descriptors]
-    006 --> 039[039 slots]
-    004 --> 040[040 Dataclasses]
-    015 --> 041[041 ABC Module]
-    041 --> 042[042 Abstract Base Classes]
-    025 --> 043[043 Protocols]
-    042 --> 043
-    028 --> 044[044 Context Managers]
-    044 --> 045[045 CM Class]
-    045 --> 046[046 CM Contextlib]
-    002 --> 047[047 Metaclasses]
-    010 --> 047
-    006 --> 048[048 Reflection]
-    048 --> 049[049 Introspection]
-    047 --> 050[050 Object Model]
-    039 --> 051[051 Memory Model]
-    050 --> 051
-    015 --> 052[052 Design Patterns]
-    024 --> 052
-    052 --> 053[053 SOLID]
-    053 --> 054[054 Best Practices]
-    029 --> 055[055 Weird OOP]
-    047 --> 055
-    004 --> 056[056 OOP Bugs]
-    051 --> 056
-    045 --> 057[057 OOP Exercises]
-    047 --> 057
-    030 --> 058[058 Interview Q]
-    038 --> 058
-    045 --> 059[059 OOP Projects]
-    052 --> 059
-```
-
----
-
-## 9. How to Open the Notebooks
-
-### 1. VS Code
-1. Install Python (>=3.8) and VS Code.
-2. Install the **Jupyter** extension from the Extension Marketplace.
-3. Open this workspace folder inside VS Code.
-4. Click on any `.ipynb` file in the file explorer to open it.
-5. Click **Run All** or execute cells sequentially.
-
-### 2. Jupyter Notebook / JupyterLab
-1. Install jupyter in your shell:
-   ```bash
-   pip install jupyter jupyterlab
-   ```
-2. Launch the server from this workspace directory:
-   ```bash
-   jupyter notebook
-   # OR
-   jupyter lab
-   ```
-3. Navigate to `Python_OOP_Master/` and open your desired notebook.
-
-### 3. Google Colab
-1. Navigate to [Google Colab](https://colab.research.google.com).
-2. Select the **Upload** tab.
-3. Drag and drop any `.ipynb` file from this folder.
-4. Run cells sequentially.
-
----
-
-## 10. Recommended Study Plan & Projects
-
-* **Week 1 (Topics 001 - 015)**: Master classes, namespaces, attributes, methods, and encapsulation.
-* **Week 2 (Topics 016 - 030)**: Solve Diamond problem, trace C3 linearization, and overload operators.
-* **Week 3 (Topics 031 - 043)**: Integrate composition, build custom descriptors, and implement static typing Protocols.
-* **Week 4 (Topics 044 - 060)**: Build context managers, create metaclasses, and compile the **Task Scheduling Project** (`059`).
-
----
-
-## 11. FAQ
-
-* **Q: Do I need prior Python knowledge?**
-  - A: Basic syntax knowledge (loops, variables) is helpful, but no prior OOP experience is required.
-* **Q: Can I skip notebooks?**
-  - A: Highly discouraged. Later notebooks (like Descriptors or Metaclasses) rely heavily on early concepts (like Attribute Scoping and bound methods).
-* **Q: Should I run every code example?**
-  - A: Yes. Modifying variables and executing cells will show CPython behaviors dynamically.
-
----
-
-## 12. Contribution Guide
-
-We welcome improvements and additions!
-1. Fork the repository.
-2. If adding a new topic source file, save it under `oop_sources/` following naming rules: `061_New_Topic.py`.
-3. Run the compiler:
-   ```bash
-   python compile_oop.py
-   ```
-4. Update the Navigation Table in this `README.md`.
-5. Submit a Pull Request.
-
----
-
-## 13. License
-
-This project is licensed under the MIT License.
-
----
-
-## 14. Footer
-
-> "The best way to understand how a complex system works is to build it yourself, instruction by instruction, block by block. Master the foundations, and the rest will follow."
+Licensed under the MIT License.
